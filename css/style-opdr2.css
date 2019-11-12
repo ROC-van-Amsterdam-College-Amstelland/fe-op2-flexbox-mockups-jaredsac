@@ -1,3 +1,53 @@
 html, body{
+    display: flex;
+    flex-direction: inline-flex;
+    height: 99%;
+    width: 100%;
+}
+
+aside{
+    display: flex;
+    flex-direction: column; 
+    width: 10%;
     height: 100%;
+    background-color: green;
+}
+
+.menu-button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    margin: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    background-color: orange;
+    
+}
+
+.hokje{
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    width: 900px;
+    height: 125px;
+    margin: 50px;
+}
+
+.foto{
+    display: flex;
+    height: 125px;
+    width: 10px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.tekst{
+    display: flex;
+    flex-direction: row;
 }
