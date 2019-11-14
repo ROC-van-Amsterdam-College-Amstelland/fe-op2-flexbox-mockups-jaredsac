@@ -18,6 +18,7 @@ aside{
     height: 50px;
     background-color: white;
     margin: 30px;
+    margin-left: 10px;
 }
 
 main{
@@ -41,13 +42,25 @@ main{
 
 .foto{
     display: flex;
-    height: 125px;
-    width: 10px;
-    margin-left: 20px;
-    border: 1px solid black;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
 
-.tekst{
+#pic{
+    display: flex;
+    flex-direction: column;
+    height: 125px;
+    width: 125px;
+    margin-left: 20px;
+}
+
+#tekst{
     display: flex;
     flex-direction: row;
+    height: 100px;
+    width: 500px;
+    margin-left: 150px;
+    color: white;
+    margin-top: 20px;
 }
