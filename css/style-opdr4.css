@@ -97,8 +97,8 @@ footer{
     display: flex;
     flex-direction: row;
     height: 200px;
-    width: 200px;
-    margin-left: 116px;
+    width: 500px;
+    margin-left: 50px;
     color: white;
 }
 
@@ -106,7 +106,7 @@ footer{
     display: flex;
     flex-direction: row;
     height: 200px;
-    width: 200px;
-    margin-left: 325px;
+    width: 500px;
+    margin-left: 115px;
     color: white;
 }
