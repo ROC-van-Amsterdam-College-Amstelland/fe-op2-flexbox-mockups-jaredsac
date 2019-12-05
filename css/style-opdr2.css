@@ -1,7 +1,6 @@
 html, body{
     display: flex;
     flex-direction: inline-flex;
-    height: 99%;
     width: 100%;
 }
 
